@@ -32,6 +32,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/naabin/Algorithms_And_Data_Structures_In_TypeScript"
+    "url": "git+https://github.com/naabin/Algorithms_And_Data_Structures_In_TypeScript.git"
   }
 }
