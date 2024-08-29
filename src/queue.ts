@@ -1,13 +1,9 @@
+import { IQueue } from "../typings/queue";
 import { NodeObj } from "./node";
 
-interface QueueProps<T> {
-  enqueue(item: T): void;
-  dequeue(): T | null | undefined;
-  isEmpty(): boolean;
-  size(): number;
-}
 
-export class Queue<T> implements QueueProps<T>, Iterable<T> {
+
+export class Queue<T> implements IQueue<T>, Iterable<T> {
   first: NodeObj<T> | null | undefined;
   last: NodeObj<T> | null | undefined;
   n: number;

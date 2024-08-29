@@ -1,13 +1,9 @@
+import { IStack } from "../typings/stack";
 import { NodeObj } from "./node";
 
-interface StackF<T> {
-  push(item: T): void;
-  pop(): T | null | undefined;
-  isEmpty(): boolean;
-  size(): number;
-}
 
-export class Stack<T> implements StackF<T>, Iterable<T> {
+
+export class Stack<T> implements IStack<T>, Iterable<T> {
   first: NodeObj<T> | null | undefined;
   n: number = 0;
 
