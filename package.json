@@ -1,10 +1,11 @@
 {
   "name": "algo-ds-ts",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Common Data Structures and Algorithms in TypeScript",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "typings": "typings/*",
   "files": [
     "dist",
     "typings"
