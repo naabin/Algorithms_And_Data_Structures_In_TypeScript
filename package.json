@@ -27,5 +27,9 @@
     "ts-node": "^10.9.2",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naabin/Algorithms_And_Data_Structures_In_TypeScript"
   }
 }
