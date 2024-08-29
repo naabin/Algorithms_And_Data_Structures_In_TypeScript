@@ -1,11 +1,10 @@
 {
   "name": "algo-ds-ts",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Common Data Structures and Algorithms in TypeScript",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "typings": "typings/*",
   "files": [
     "dist",
     "typings"
@@ -14,7 +13,7 @@
     "build": "tsup",
     "test": "jest"
   },
-  "homepage": "https://github.com/naabin/Algorithms_And_Data_Structures_In_TypeScript/README.md",
+  "homepage": "https://github.com/naabin/Algorithms_And_Data_Structures_In_TypeScript/blob/main/README.md",
   "keywords": [
     "data-structures",
     "algorithms",
